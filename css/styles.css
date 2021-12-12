@@ -1,0 +1,542 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+
+       .center-dives {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    text-align: center;
+    max-width: 500px;
+    background-color: white;
+    left: 50%;
+    margin-left: -250px;
+    box-shadow: 0 1px 5px 0 rgb(0 0 0 / 10%), 0 1px 5px 0 rgb(0 0 0 / 10%);
+    padding: 20px;
+    font-size: 13.2px;
+    line-height: 3;
+}
+
+    #camis>.center-dives>h1>button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    border: none;
+    font-size: 9px;
+    margin-right: 10px;
+}
+.aboutinfo{
+    margin-left: 260px;
+}
+        .center-dives>h1{
+            box-shadow: 0 1px 5px 0 rgb(0 0 0 / 10%), 0 1px 5px 0 rgb(0 0 0 / 10%);
+            color: #595B83;
+            font-size: 10px;
+            padding-right: 10px;
+
+                }
+        .center-dives>p{
+            text-align: justify;
+            font-size: 12px;
+            margin-top: 10px;
+            font-weight: bold;
+            color: #344CB7;
+        }
+        .aboutinfo>h1>span {
+            color: white;
+            padding: 4px;
+            margin-left: 8px;
+            background: orangered;
+        }
+        .aboutinfo>h1 {
+           padding-left: 10px;
+        }
+        .aboutinfo>h2{
+            box-shadow: 0 1px 5px 0 rgb(0 0 0 / 10%), 0 1px 5px 0 rgb(0 0 0 / 10%);
+            color: #595B83;
+            font-size: 10px;
+            padding-right: 10px;
+            padding-left: 10px;
+            margin-top: 5px;
+           
+
+
+                }
+                .aboutinfo>h2>form{
+                    display: flex;
+                    flex-direction: column;
+                }
+                .aboutinfo>h2>form>input {
+                    padding: 5px;
+                    margin-top: 5px;
+                    margin-bottom: 10px;
+                    outline: none;
+                    
+                }
+                .aboutinfo>h2>form>input[type='text']{
+                    text-align: right;
+                }
+                .aboutinfo>h2>form>input[type='submit']{
+                    color: orangered;
+                    border: 1px solid orangered;
+                    border-radius: 3px;
+
+                    box-shadow: 0 1px 5px 0 rgb(0 0 0 / 10%), 0 1px 5px 0 rgb(0 0 0 / 10%);
+
+                }
+.documentation{
+    width: 100%;
+    height: 511px;
+        margin-top: 10px;
+    background-color: darkslateblue;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.manag{
+    width: 1200px;
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+    }
+.header{
+    width: 100%;
+    
+}
+.header>form{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+
+}
+.header>form::-webkit-scrollbar{
+    height: 25px;
+    padding: 10px;
+
+}
+.header>form::-webkit-scrollbar-thumb{   
+
+    border: 10px solid white;
+    border-radius: 20px;
+
+    background-color: #5c5cffff;
+}
+.header>form::-webkit-scrollbar-track{
+    background-color: white;
+}
+.header>form>*{
+    display: inline-block;
+    margin-left: 3px;
+}
+.header>form>input[type='text']{
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 35%;
+    outline: none;
+    text-align: right;
+}
+.header>form>input[type='color']{
+    padding: 1px;
+    width: 2.5%;
+    position: relative;
+    top: 3px;
+}
+.header>form>input[type='submit']{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.list-system{
+  padding: 10px;
+  padding-left: 18px;
+  padding-right: 18px;
+  box-shadow: 0 1px 5px 0 rgb(0 0 0 / 10%), 0 1px 5px 0 rgb(0 0 0 / 10%);
+  background-color: darkslateblue;
+  color: white;
+  border-radius: 5px;
+
+}
+.list-system>.documents{
+    width: 200px;
+    margin-left: -80px;
+    height: 180px;
+    position: absolute;
+    z-index: 9999;
+    margin-top: -245px;
+    box-shadow: 0 1px 5px 0 rgb(0 0 0 / 10%), 0 1px 5px 0 rgb(0 0 0 / 10%);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+.list-system>.documents>div{
+    width: 20%;
+    height: 40px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 5px;
+    border-radius: 15px;
+        border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.list-system>.documents::-webkit-scrollbar{
+    width: 0px;
+
+}
+.comeies{
+    background-image: linear-gradient(to right,#3E00FF ,#170055 );
+}
+.comeies1{
+    background-image: linear-gradient(to right,#B91646 ,#105652 );
+}
+.comeies2{
+    background-image: linear-gradient(to right,#F78812 ,#E02401 );
+}
+.comeies3{
+    background-image: linear-gradient(to right,#77D970 ,#297F87 );
+}
+.comeies4{
+    background-image: linear-gradient(to right,#8E2657 ,#171717 );
+}
+.comeies5{
+    background-image: linear-gradient(to right,#BB371A ,#4AA96C );
+}
+.comeies6{
+    background-image: linear-gradient(to right,#8E9775 ,#184D47 );
+}
+.comeies7{
+    background-image: linear-gradient(to right,#222831 ,#949CDF );
+}
+.comeies8{
+    background-image: linear-gradient(to right,#6B7AA1 ,#F9975D );
+}
+.comeies9{
+    background-image: linear-gradient(to right,#6E3CBC ,#116530 );
+}
+.comeies10{
+    background-image: linear-gradient(to right,#B85252 ,#2C272E );
+}
+.comeies11{
+    background-image: linear-gradient(to right,#292C6D ,#EC255A );
+}
+.documentation>.documentsw{
+    width: 1200px;
+    background-color: white;
+    margin-top: 5px;
+    padding: 10px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.documentation>.documentsw>div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 98%;
+    height: 50px;
+    box-shadow: 0 1px 5px 0 rgb(0 0 0 / 10%), 0 1px 5px 0 rgb(0 0 0 / 10%);
+    display: flex;
+
+
+}
+.documentation>.documentsw>div>p{
+
+    width: 40%;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 11px;
+    line-height: 51px;
+    height: 100%;
+    overflow-y: hidden;
+    color: white;
+}
+.documentation>.documentsw>div>input{
+    width: 20%;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 48px;
+    font-size: 11px;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0 1px 5px 0 rgb(0 0 0 / 10%), 0 1px 5px 0 rgb(0 0 0 / 10%);
+    color: black;
+    
+    box-shadow: 0 1px 5px 0 rgb(0 0 0 / 10%), 0 1px 5px 0 rgb(0 0 0 / 10%);
+
+}
+.searchitems{
+    width: 1200px;
+    height: 200px;
+    background-color: darkslateblue;
+}
+.searchitems>.searchspace{
+    width: 100%;
+    height: 60px;
+
+}
+.searchitems>.searchspace>input{
+    width: 90%;
+    padding: 10px;
+    outline: none;
+    margin-top: 9px;
+    text-align: right;
+}
+.resultsearch{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resultsearch>div{
+    width: 98%;
+    height: 50px;
+    box-shadow: 0 1px 5px 0 rgb(0 0 0 / 10%), 0 1px 5px 0 rgb(0 0 0 / 10%);
+    display: flex;
+    
+}
+.resultsearch>div>p{
+
+    width: 40%;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 11px;
+    line-height: 51px;
+    height: 100%;
+    overflow-y: hidden;
+    color: white;
+    background-color: royalblue;
+}
+.resultsearch>div>a{
+    width: 20%;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 100%;
+    font-size: 11px;
+    font-weight: bold;
+    border: none;
+    background-color: darkslateblue;
+    color: white;
+    line-height: 50px;
+    text-decoration: none;
+    
+
+    
+
+}
+.iqemw{
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 12px;
+    font-weight: bolder;
+    color: darkslateblue;
+    border: 1px solid darkslateblue;
+
+}
+.reploads{
+    position: absolute;
+    z-index: 9999;
+    max-width: 500px;
+    height: 300px;
+    background-color: green;
+
+}
+.conteniners-header{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    background-color: darkslateblue;
+    justify-content: center;
+    align-items: center;
+}
+.conteniners-header>div{
+    width: 400px;
+    height: 90%;
+    box-shadow: 0 1px 5px 0 rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.checkdocs>.headersection{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    color: darkslateblue;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 3px 3px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+.checkdocs>.headersection>p{
+    line-height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: darkslateblue;
+    height: 35px;
+    margin-top: 2px;
+    color: white;
+    border-radius: 0px 3px 3px 0px;
+
+
+}
+.checkdocs>.headersection>input{
+    width: 70%;
+    padding:5px;
+    height: 35px;
+    margin-top: 2px;
+    outline: none;
+}
+.moreacces{
+    width: 100%;
+    height: 85%;
+    background-color: white;
+    overflow-y: scroll;
+overflow-x: hidden;
+}
+
+.moreacces>div{
+width: 98%;
+height: 50px;
+background-color: darkslateblue;
+display: flex;
+justify-content: center;
+margin: auto;
+margin-top: 5px;
+margin-bottom: 5px;
+
+}
+.moreacces>div>p{
+    padding-left: 7px;
+    padding-right: 4px;
+    width: 35%;
+    height: 40px;
+    color: white;
+    line-height: 40px;
+    font-size: 10px;
+    overflow-y: hidden;
+    background-color: rebeccapurple;
+   margin-left: 5px;
+   margin-top: 3px;
+
+
+}
+.moreacces>div>input{
+    width: 10%;
+    border: none;
+    margin-left: 5px;
+    background-color: rebeccapurple;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+
+}
+.moreacces::-webkit-scrollbar{
+    width: 0px;
+}
+.joineros{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.joineros>div{
+    width: 98%;
+    height: 22.7%;
+    margin: auto;
+    margin-top: 5px;
+    display: flex;
+
+}
+.joineros>div>input{
+    width: 50%;
+    margin-left: 3px;
+    margin-right: 3px;
+    border: none;
+    box-shadow: 0 1px 5px 0 rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+
+}
+.joineros>div>input[class='showeritems']{
+    background-color: darkslateblue;
+    color: white;
+
+}
+.funtutorial{
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.funtutorial>.decoments{
+    margin: auto;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    background-color: white;
+    width: 98%;
+    height: 60px;
+    font-size: 12px;
+    font-weight: bold;
+    
+
+
+}
+.liemdoces{
+    width: 100%;
+    margin: auto;
+    margin-top: 4px;
+    font-size: 12px;
+    color: white;
+    box-shadow: 0 1px 5px 0 rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+.liemdoces>span{
+    box-shadow: 0 1px 5px 0 rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    text-align: right;
+
+}
+.funtutorial>.decoments>p{
+    text-align: right;
+    line-height: 60px;
+    padding-right: 20px;
+    color: darkslateblue;
+}
+.funtutorial::-webkit-scrollbar{
+    width: 0px;
+}
