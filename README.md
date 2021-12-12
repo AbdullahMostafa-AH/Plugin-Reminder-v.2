@@ -27,6 +27,11 @@
 - اجاكس
 - ماي اس كيو ال/اس كيو ال
 
+## اذا احتجت اي مساعدة لتثبيت الاضافة تواصل معنا علي :
+- فيس بوك : https://www.facebook.com/AbdullahMostafa.AH/
+- انستجرام : https://www.instagram.com/abdullahmostafaalihamed/
+- تويتر : https://twitter.com/AM_Ali_Hamed
+- جيميل : abdullahmostafaalihamed@gmail.com
 # صور تعريفية عن المشروع
 
 ![e](https://user-images.githubusercontent.com/93102972/145730334-500771bf-17e0-4749-9892-6e091e179d8d.png)
